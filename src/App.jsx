@@ -3,6 +3,7 @@ import { gsap } from 'gsap'
 import Home from './components/home/Home'
 import Header from './components/header/Header'
 import { useEffect, useRef } from 'react'
+import About from './components/about/About'
 
 
 function App() {
@@ -32,8 +33,11 @@ function App() {
         <Header />
       </div>
 
-      <div className='p-1 lg:p-2'>
+      <div className='p-1 lg:p-2   h-[700px] bg-gradient-to-r from-gray-950 via-gray-950 to-black'>
         <Home />
+      </div>
+      <div className='p-1 lg:p-2 h-[600px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
+        <About />
       </div>
     </div>
   )

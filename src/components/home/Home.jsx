@@ -1,10 +1,10 @@
 import React from 'react';
-import './Home.css'
 import { Typewriter } from 'react-simple-typewriter'
+import { MoveRight } from 'lucide-react';
 
 const Home = () => {
     return (
-        <div className='pt-25 md:pt-35 lg:pt-40 mx-auto px-4 flex flex-col-reverse md:flex-row md:gap-10 lg:gap-16 bg-gradient-to-r from-gray-950 via-gray-950 to-black'>
+        <div className='pt-25 md:pt-35 lg:pt-40 mx-auto px-4 flex flex-col-reverse md:flex-row md:gap-10 lg:gap-16 '>
             <div className='flex flex-col md:w-[57%] lg:w-[50%]'>
                 <div className='p-1'>
                     <h1 className='text-blue-500 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl'>
@@ -22,7 +22,7 @@ const Home = () => {
                 <div className='flex flex-row mt-10 gap-6 text-[17px]'>
                     <button className='text-white bg-blue-500 p-3 font-bold flex items-center'>
                         View Projects 
-                        <span className='font-bold ml-2 text-2xl'>{'->'}</span>
+                        <span className='font-bold ml-2 text-2xl'><MoveRight /></span>
                     </button>
                     <button className='text-blue-400 border-2 border-blue-500 p-3'>Contact Me</button>
                 </div>
