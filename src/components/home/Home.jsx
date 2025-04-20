@@ -19,13 +19,23 @@ const Home = () => {
                     I build exceptional digital experiences with clean code and modern frameworks. <br />
                     Passionate about algorithms, problem-solving, and creating intuitive interfaces.
                 </p>
-                <div className='flex flex-row mt-10 gap-6 text-[17px]'>
-                    <button className='text-white bg-blue-500 p-3 font-bold flex items-center'>
+                <div className='flex flex-col sm:flex-row mt-10 gap-4 text-[17px]'>
+                    <a
+                        href="#projects"
+                        className='text-white bg-blue-500 px-5 py-3 font-bold flex items-center justify-center hover:bg-blue-600 transition rounded'
+                    >
                         View Projects 
-                        <span className='font-bold ml-2 text-2xl'><MoveRight /></span>
-                    </button>
-                    <button className='text-blue-400 border-2 border-blue-500 p-3'>Contact Me</button>
+                        <span className='ml-2 text-2xl'><MoveRight /></span>
+                    </a>
+
+                    <a
+                        href="#contact"
+                        className='text-blue-400 border-2 border-blue-500 px-5 py-3 text-center hover:bg-blue-500 hover:text-white transition rounded'
+                    >
+                        Contact Me
+                    </a>
                 </div>
+
 
             </div>
             <div className="bg-[#1e1e1e] text-white rounded-xl shadow-lg max-w-xl mt-5 mb-2 overflow-hidden md:w-[43%] lg:w-[50%]">

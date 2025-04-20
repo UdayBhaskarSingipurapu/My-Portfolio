@@ -68,13 +68,25 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-row mt-5 gap-6 text-[17px]'>
-                    <button className='text-white bg-blue-500 p-3 font-bold flex items-center'>
+                <div className='flex flex-col sm:flex-row mt-5 gap-4 text-[17px]'>
+                    <a
+                        href="#contact"
+                        className='text-white bg-blue-500 px-5 py-3 font-bold flex items-center justify-center hover:bg-blue-600 transition rounded'
+                    >
                         Get In Touch
-                        <span className='font-bold ml-2 text-2xl'><MoveRight /></span>
-                    </button>
-                    <button className='text-blue-400 border-2 border-blue-500 p-3'>View Resume</button>
+                        <span className='ml-2 text-2xl'><MoveRight /></span>
+                    </a>
+
+                    <a
+                        href='https://drive.google.com/file/d/14HrUsqyZ-Wkbx1O9YUZenowl3V-42hGR/view?usp=sharing'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='text-blue-400 border-2 border-blue-500 px-5 py-3 text-center hover:bg-blue-500 hover:text-white transition rounded'
+                    >
+                        View Resume
+                    </a>
                 </div>
+
             </div>
             <hr className="my-6 border-t border-gray-700" />
         </div>

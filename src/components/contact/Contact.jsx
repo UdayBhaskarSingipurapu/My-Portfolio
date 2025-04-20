@@ -54,19 +54,19 @@ const Contact = () => {
                 <div className='flex flex-col md:flex-row flex-wrap gap-4'>
 
                     <a href="https://linkedin.com/in/uday-bhaskar-singipurapu" target="_blank" rel="noopener noreferrer"
-                        className='md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
+                        className='w-2/3 md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
                         <img src={linkedin} alt="LinkedIn" className='w-14 h-14' />
                         <h1 className='text-xl mt-2'>LinkedIn</h1>
                     </a>
 
                     <a href="https://github.com/UdayBhaskarSingipurapu" target="_blank" rel="noopener noreferrer"
-                        className='md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
+                        className='w-2/3 md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
                         <img src={github} alt="GitHub" className='w-14 h-14' />
                         <h1 className='text-xl mt-2'>GitHub</h1>
                     </a>
 
                     <a href="https://x.com/Udaybhaskar9000" target="_blank" rel="noopener noreferrer"
-                        className='md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
+                        className='w-2/3 md:w-1/4 rounded-2xl bg-[#2f2f2f] p-4 mx-auto items-center flex flex-col hover:bg-[#3a3a3a] transition'>
                         <FaTwitter className='w-14 h-14 text-blue-500' />
                         <h1 className='text-xl mt-2'>Twitter</h1>
                     </a>
