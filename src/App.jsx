@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import { useEffect, useRef } from 'react'
 import About from './components/about/About'
 import Projects from './components/project/Projects'
+import Skills from './components/skills/Skills'
 
 function App() {
   const headingRef = useRef();
@@ -39,8 +40,11 @@ function App() {
       <div className='p-1 lg:p-2 lg:h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
         <About />
       </div>
-      <div>
+      <div className='p-1 lg:p-2 from-gray-950 via-gray-950 to-black'>
         <Projects />
+      </div>
+      <div className='p-1 lg:p-2 bg-gradient-to-r from-black via-gray-950 to-gray-950'>
+        <Skills />
       </div>
     </div>
   )
