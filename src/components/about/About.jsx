@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../assets/image.png'
+import profile from '../../assets/udaybhaskar.jpg'
 import { CodeXml } from 'lucide-react';
 import { Mails } from 'lucide-react';
 import { HiOutlineLightBulb } from "react-icons/hi";
@@ -11,9 +11,9 @@ const About = () => {
         <div className="ps-2 flex flex-col lg:flex-row gap-6 md:gap-8 lg:gap-0 lg:items-center">
             <div className="lg:w-[40%] ">
                 <img
-                    src={image}
+                    src={profile}
                     alt=""
-                    className="rounded-2xl w-[280px] h-[270px] md:w-[400px] md:h-[380px] lg:w-[420px] lg:h-[420px] mx-auto"
+                    className="rounded-2xl w-[270px] h-[290px] md:w-[400px] md:h-[410px] lg:w-[400px] lg:h-[400px] mx-auto"
                 />
             </div>
             <div className="lg:w-[60%] md:ps-4">
