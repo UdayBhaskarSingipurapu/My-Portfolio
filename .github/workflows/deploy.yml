@@ -52,8 +52,10 @@ jobs:
       - name: Debug Downloaded Artifact
         run: ls -l ./dist  # Ensure the downloaded artifact exists
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - name: Commit and push to main
+        run: |
+          git add -A  # Add all changes
+          git commit -m "Deploy build to main branch"
+          git push origin main  # Push to the main branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
