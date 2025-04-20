@@ -36,29 +36,30 @@ function App() {
         <Header />
       </div>
 
-      <div className='p-1 lg:p-2 h-[700px] bg-gradient-to-r from-gray-950 via-gray-950 to-black'>
+      <div id="home" className='p-1 lg:p-2 h-[700px] bg-gradient-to-r from-gray-950 via-gray-950 to-black'>
         <Home />
       </div>
 
-      <div className='p-1 lg:p-2 lg:h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
+      <div id="about" className='p-1 lg:p-2 h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
         <About />
       </div>
 
-      <div className='p-1 lg:p-2 from-gray-950 via-gray-950 to-black'>
+      <div id="projects" className='p-1 lg:p-2 from-gray-950 via-gray-950 to-black'>
         <Projects />
       </div>
 
-      <div className='p-1 lg:p-2 lg:h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
+      <div id="skills" className='p-1 lg:p-2 h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
         <Skills />
       </div>
 
-      <div>
+      <div id="coding" className='p-1 lg:p-2 h-[700px] bg-gradient-to-r from-black via-gray-950 to-gray-950'>
         <Coding />
       </div>
-      
-      <div>
+
+      <div id="contact" className='mb-3 p-1 h-[700px] lg:p-2 bg-gradient-to-r from-black via-gray-950 to-gray-950'>
         <Contact />
       </div>
+
     </div>
   )
 }
