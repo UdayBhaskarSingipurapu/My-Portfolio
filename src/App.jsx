@@ -7,6 +7,7 @@ import About from './components/about/About'
 import Projects from './components/project/Projects'
 import Skills from './components/skills/Skills'
 import Coding from './components/coding/Coding'
+import Contact from './components/contact/Contact'
 
 function App() {
   const headingRef = useRef();
@@ -53,6 +54,10 @@ function App() {
 
       <div>
         <Coding />
+      </div>
+      
+      <div>
+        <Contact />
       </div>
     </div>
   )
